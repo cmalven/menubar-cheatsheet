@@ -15,9 +15,11 @@ var selectInputContents = function(evt) {
   var $input = $(this);
   $input.select();
   clipboard.writeText($input.val());
+  
+  // Show a notification of the clipboard copy
   notify($input.val());
 
-  // Show a notification of the clipboard copy
+  // After a short delay, unfocus the input and close the menubar window
   setTimeout(function() {
     $input[0].selectionStart = $input[0].selectionEnd = -1;
     $input.blur();
