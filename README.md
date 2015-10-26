@@ -2,6 +2,8 @@
 
 A menubar app for referencing common commands, built using [menubar](https://github.com/maxogden/menubar) and [Electron](https://github.com/atom/electron)
 
+![Demo](demo.gif)
+
 ---
 
 ## Setup
