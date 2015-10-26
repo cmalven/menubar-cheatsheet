@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang=en>
+<head>
+<meta charset=utf-8>
+<title>My Menubar app</title>
+<link rel="stylesheet" type="text/css" href="styles/reset.css">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+
+
+<div class="js-sections"></div>
+
+<section class="l-section">
+  <h1 class="l-section__heading">Git</h1>
+  <ul class="l-section__rows">
+    <li class="l-section__item">
+      <span>Stage all working files.</span>
+      <input type="text" value="git add .">
+    </li>
+    <li class="l-section__item">
+      <span>Commit</span>
+      <input type="text" value="git commit -m 'My commit message'">
+    </li>
+    <li class="l-section__item">
+      <span>Create new branch based on your current HEAD</span>
+      <input type="text" value="git branch <new-branch>">
+    </li>
+    <li class="l-section__item">
+      <span>Discard all local changes</span>
+      <input type="text" value="git reset --hard HEAD">
+    </li>
+  </ul>
+</section>
+
+<section class="l-section">
+  <h1 class="l-section__heading">Shell</h1>
+  <ul class="l-section__rows">
+    <li class="l-section__item">
+      <span>Find process on port</span>
+      <input type="text" value="lsof -i tcp:5000">
+    </li>
+    <li class="l-section__item">
+      <span>Kill Process</span>
+      <input type="text" value="kill -9 <PID>">
+    </li>
+  </ul>
+</section>
+
+<script src="scripts/main.js"></script>
+
+</body>
+</html>

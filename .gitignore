@@ -1,0 +1,13 @@
+# MISC FILES
+# ----------------------------------
+.DS_Store
+
+# PACKAGE MANAGERS
+# ----------------------------------
+bower_components
+npm-debug.log
+node_modules
+
+# BUILT FILES
+# ----------------------------------
+builds

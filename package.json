@@ -1,0 +1,21 @@
+{
+  "name": "menubar-cheatsheet",
+  "version": "1.0.0",
+  "description": "A cheatsheet for your menu bar, built on Electron",
+  "main": "index.js",
+  "scripts": {
+    "build": "electron-packager . MenubarCheatsheet --out ./builds --platform=darwin --arch=all --version=0.34.1 --icon=Icon.icns --overwrite",
+    "start": "electron ."
+  },
+  "author": "Chris Malven <cmalven@chrismalven.com>",
+  "license": "ISC",
+  "dependencies": {
+    "electron-debug": "^0.2.1",
+    "jquery": "^2.1.4",
+    "menubar": "*"
+  },
+  "devDependencies": {
+    "electron-packager": "^5.1.0",
+    "electron-prebuilt": "0.34.1"
+  }
+}
